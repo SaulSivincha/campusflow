@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
-add_library(campusflow_core src/Campus.cpp)
+add_library(campusflow_core src/Campus.cpp src/Ruta.cpp)
 target_include_directories(campusflow_core PUBLIC include)
 
 add_executable(campusflow src/main.cpp)
