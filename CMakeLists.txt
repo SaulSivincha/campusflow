@@ -10,3 +10,10 @@ target_include_directories(campusflow_core PUBLIC include)
 
 add_executable(campusflow src/main.cpp)
 target_link_libraries(campusflow PRIVATE campusflow_core)
+
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(rutas_test tests/rutas_test.cpp)
+    target_link_libraries(rutas_test PRIVATE campusflow_core)
+    add_test(NAME rutas COMMAND rutas_test)
+endif()
