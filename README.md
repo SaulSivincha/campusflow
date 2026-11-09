@@ -71,17 +71,3 @@ Incorporar persistencia del mapa y selección de origen y destino por el usuario
 Después se evaluará una interfaz 2D y una simulación básica de congestión.
 Estas funciones todavía no están implementadas.
 
-## Organización del avance
-
-El historial se organiza retrospectivamente en cinco etapas con fechas
-asignadas del 2 al 6 de noviembre de 2026 (zona horaria de Lima).
-Estas fechas representan la organización del avance y no acreditan trabajo
-realizado en esos días; este prototipo se preparó el 8 de noviembre de 2026.
-
-| Etapa | Fecha asignada | Entregable |
-| --- | --- | --- |
-| 1 | Lunes 02/11 | Estructura del proyecto y CMake |
-| 2 | Martes 03/11 | Modelo de lugares y caminos |
-| 3 | Miércoles 04/11 | Estrategias de cálculo de rutas |
-| 4 | Jueves 05/11 | Demostración por consola |
-| 5 | Viernes 06/11 | Pruebas y documentación del avance |
