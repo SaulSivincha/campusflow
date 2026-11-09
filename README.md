@@ -70,4 +70,3 @@ ctest --test-dir build --output-on-failure
 Incorporar persistencia del mapa y selección de origen y destino por el usuario.
 Después se evaluará una interfaz 2D y una simulación básica de congestión.
 Estas funciones todavía no están implementadas.
-
